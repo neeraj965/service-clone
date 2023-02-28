@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+html{
+    font-size: 16px;
+}
+
+.corporation{
+    width:22rem;
+    height:27rem;
+    background-color:white;
+    border-radius: 5%;
+   
+}
+.corporation-one{
+    width:22rem;
+    height:27rem;
+    background-color:white;
+    border-radius: 5%;
+    position:absolute;
+    margin:-28.2rem 24rem;;
+}
+.corporation-two{
+    width:22rem;
+    height:27rem;
+    background-color:white;
+    border-radius: 5%;
+    position:absolute;
+    margin:-28.2rem 48rem;
+}
+.corporation-three{
+    width:22rem;
+    height:27rem;
+    background-color:white;
+    border-radius: 5%;
+    position:absolute;
+    margin:-28.2rem 72rem;
+}
+.service-provider{
+    height:3.5rem;
+    width:93rem;
+    margin:0.5rem 2rem;
+    background-color: teal;
+    opacity:0.23;
+}
+@media screen and (max-width:810px){
+
+    html{
+        font-size:8px;
+    }
+}
+@media screen and (max-width:410px){
+
+    html{
+        font-size: 4px;
+    }
+}

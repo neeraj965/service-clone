@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+html{
+    font-size: 16px;
+
+}
+
+.consultancy{
+
+    height:28rem;
+    width:34rem;
+    background-color: white;
+    margin:0rem 1.9rem;
+    border-radius: 7%;
+}
+
+
+
+@media screen and (max-width:810px){
+
+    html{
+font-size: 8px;
+    }
+}
+
+@media screen and (max-width:410px){
+    html{
+        font-size: 4px;
+    }
+}

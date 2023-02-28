@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+.scrollsection {
+  height: 16rem;
+  width: 92.2.3rem;
+  margin: 1rem 1.2rem;
+  background-color: white;
+  border-radius: 2%;
+  animation: animate 7s infinite ease-in-out;
+}
+
+@keyframes animate {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: -100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 410px) {
+  html {
+    font-size: 4px;
+  }
+}
